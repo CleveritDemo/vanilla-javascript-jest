@@ -4,6 +4,12 @@ simple usage of copilot for jest testing purposes
 
 ## Step 0: Open VS Code
 
+In a terminal, open Visual Studio Code with the following command:
+
+```bash
+code .
+```
+
 ## Step 1: usage of Copilot Chat to Create Project
 
 ```bash
@@ -11,4 +17,10 @@ simple usage of copilot for jest testing purposes
 ```
 
 ![Chat Response](assets/image.png)
+
+Press Create Workspace
+
+- Select a folder this will open a new session of VS Code.
+
+
 
