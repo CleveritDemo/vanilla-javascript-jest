@@ -35,4 +35,4 @@ With the following structure
 
 - The suggestions will appear above the comments
 
-![Suggestions](image3.png)
+![Suggestions](assets/image3.png)
