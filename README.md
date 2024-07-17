@@ -36,3 +36,8 @@ With the following structure
 - The suggestions will appear above the comments
 
 ![Suggestions](assets/image3.png)
+
+- You can accept the suggestions with `Tab` or `Enter` or you can do `Ctrl + Enter` to see all the suggestions in a new tab.
+
+![All suggestions](assets/image4.png)
+
