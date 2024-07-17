@@ -1,6 +1,6 @@
-# vanilla-javascript-jest
+# GH Copilot Adoption Program - Jest Testing
 
-simple usage of copilot for jest testing purposes
+Simple usage of characteristic of copilot for creating a project structure and comments, in this case a password checker project with Jest testing.
 
 ## Step 0: Open VS Code
 
@@ -40,4 +40,17 @@ With the following structure
 - You can accept the suggestions with `Tab` or `Enter` or you can do `Ctrl + Enter` to see all the suggestions in a new tab.
 
 ![All suggestions](assets/image4.png)
+
+- You can review the suggestions and accept the ones you want.
+
+- Now follow your instructor to continue with the project.
+
+
+## Solved solutions
+
+To se how solutions were solved, check the `solved` branch.
+
+```bash
+git checkout solved
+```
 
