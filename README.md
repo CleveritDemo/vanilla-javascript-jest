@@ -33,3 +33,6 @@ With the following structure
   // Analyze if password is a string if not return error
 ```
 
+- The suggestions will appear above the comments
+
+![Suggestions](image3.png)
