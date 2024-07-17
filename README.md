@@ -22,5 +22,14 @@ Press Create Workspace
 
 - Select a folder this will open a new session of VS Code.
 
+With the following structure
 
+![Project Structure](assets/image2.png)
+
+- Open `passwordChecker.js` and add comments like this:
+
+```javascript
+  // Perform varius checks on the password
+  // Analyze if password is a string if not return error
+```
 
