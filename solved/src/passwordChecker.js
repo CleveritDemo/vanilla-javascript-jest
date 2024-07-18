@@ -11,21 +11,21 @@ function checkPassword(password) {
   // Add your implementation here
 
   // Analyze if password is a string if not throw an error
-  if (typeof password !== 'string') {
-    throw new Error('Password must be a string');
+  if (typeof password !== "string") {
+    throw new Error("Password must be a string");
   }
   // Analyze if password is empty, if it is return an error
   if (password.length === 0) {
-    throw new Error('Password cannot be empty');
+    throw new Error("Password cannot be empty");
   }
   // Analyze if password is less than 8 characters, if it is return an error
   if (password.length < 8) {
-    throw new Error('Password must be at least 8 characters');
+    throw new Error("Password must be at least 8 characters");
   }
 
   // Analyze if password is more than 15 characters, if it is return an error
   if (password.length > 15) {
-    throw new Error('Password must be at most 15 characters');
+    throw new Error("Password must be at most 15 characters");
   }
 
   // Analyze if password contains common patterns, if it does return an error
@@ -35,12 +35,12 @@ function checkPassword(password) {
 
   // Analyze if password contains only letters, if it does return an error
   if (/^[a-zA-Z]+$/.test(password)) {
-    throw new Error('Password must contain at least one number');
+    throw new Error("Password must contain at least one number");
   }
 
   // Analyze if password contains only numbers, if it does return an error
   if (/^\d+$/.test(password)) {
-    throw new Error('Password must contain at least one letter');
+    throw new Error("Password must contain at least one letter");
   }
 }
 
@@ -50,25 +50,25 @@ function checkPasswordWithOutRegEx(password) {
   // Add your implementation here
 
   // Analyze if password is a string if not throw an error
-  if (typeof password !== 'string') {
-    throw new Error('Password must be a string');
+  if (typeof password !== "string") {
+    throw new Error("Password must be a string");
   }
   // Analyze if password is empty, if it is return an error
   if (password.length === 0) {
-    throw new Error('Password cannot be empty');
+    throw new Error("Password cannot be empty");
   }
   // Analyze if password is less than 8 characters, if it is return an error
   if (password.length < 8) {
-    throw new Error('Password must be at least 8 characters');
+    throw new Error("Password must be at least 8 characters");
   }
 
   // Analyze if password is more than 15 characters, if it is return an error
   if (password.length > 15) {
-    throw new Error('Password must be at most 15 characters');
+    throw new Error("Password must be at most 15 characters");
   }
 
   // Analyze if password contains common patterns, if it does return an error
-  if (password.toLowerCase().includes('password')) {
+  if (password.toLowerCase().includes("password")) {
     throw new Error('Password cannot contain the word "password"');
   }
 
@@ -81,7 +81,7 @@ function checkPasswordWithOutRegEx(password) {
     }
   }
   if (!hasNumber) {
-    throw new Error('Password must contain at least one number');
+    throw new Error("Password must contain at least one number");
   }
 
   // Analyze if password contains only numbers, if it does return an error
@@ -93,10 +93,11 @@ function checkPasswordWithOutRegEx(password) {
     }
   }
   if (!hasLetter) {
-    throw new Error('Password must contain at least one letter');
+    throw new Error("Password must contain at least one letter");
   }
 }
 
 module.exports = {
-  checkPassword
+  checkPassword,
+  checkPasswordWithOutRegEx,
 };
