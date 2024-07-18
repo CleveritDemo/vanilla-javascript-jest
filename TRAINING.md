@@ -13,7 +13,7 @@ code .
 ## Step 1: usage of Copilot Chat to Create Project
 
 ```bash
-@workspace /new I need to create files and folders structure for a Javascript and Jest project, this project is a "Password Checker" that analize an string called "password" with export functions. Later I need to test those Javascript functions with Jest.
+@workspace /new I need to create files and folders structure for a Javascript and Jest project, this project is a "Password Checker" that analize an string called "password" with a function, inside of the function I need to validate if the password meet some password strenght criterias like: 1) The password is at least 8 characters long 2) The password has only letters and not numbers, if the condition is not met I need to throw error messages for each condition not accomplished. Later I need to test those Javascript functions with Jest.
 ```
 
 ![Chat Response](assets/image.png)
